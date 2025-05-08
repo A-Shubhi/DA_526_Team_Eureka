@@ -20,16 +20,16 @@ or
 
 
 ## Dataset Preparation
-Download the datasets using the following script. Please cite their paper if you use the data. Try twice if it fails the first time!
+Download the datasets using the following script.
 ```
 sh ./datasets/download_cyclegan_dataset.sh selfie2anime
 ```
 The selfie2anime dataset can be download [here](https://drive.google.com/file/d/1xOWj1UVgp6NKMT3HbPhBbtq2A4EDkghF/view).
 
 ## AttentionGAN Training/Testing
-- Download a dataset using the previous script.
+- Download the dataset using the previous script.
 
-- Train a model:
+- Train the model:
 ```
 sh ./scripts/train_attentiongan.sh
 ```
@@ -39,14 +39,14 @@ sh ./scripts/train_attentiongan.sh
 ```
 sh ./scripts/test_attentiongan.sh
 ```
-- The test results will be saved to a html file here: `./results/horse2zebra_attentiongan/latest_test/index.html`.
+
 
 ## Generating Images Using Pretrained Model
-- You need download a pretrained model (e.g., horse2zebra) with the following script:
+- You need download a pretrained model (e.g., Selfie2Anime) with the following script:
 ```
 sh ./scripts/download_attentiongan_model.sh horse2zebra
 ```
-- The pretrained model is saved at `./checkpoints/{name}_pretrained/latest_net_G.pth`. 
+- The pretrained model is saved at `./checkpoints/selfie2anime_pretrained/latest_net_G.pth`. 
 - Then generate the result using
 ```
 python test.py --dataroot ./datasets/horse2zebra --name horse2zebra_pretrained --model attention_gan --dataset_mode unaligned --norm instance --phase test --no_dropout --load_size 256 --crop_size 256 --batch_size 1 --gpu_ids 0 --num_test 5000 --epoch latest --saveDisk
