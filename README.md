@@ -17,6 +17,11 @@ https://github.com/user-attachments/assets/5f9b2360-016d-4b5c-acff-c91bc8abf83b
 Image Style Transfer using Deep Learning (Oil Painting):
 https://github.com/user-attachments/assets/c9a6794f-d771-4bfd-a3be-5a9cbbd00dcb
 
+Real to Ghibli:
+https://github.com/user-attachments/assets/f100edb3-2e0c-4f78-81db-00205188e953
+
+
+
 
 
 
