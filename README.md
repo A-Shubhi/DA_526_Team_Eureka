@@ -11,6 +11,6 @@ The demo video for various approaches are:
 
 
 
-**Traditional Method **
+Traditional Method : 
 https://github.com/user-attachments/assets/5f9b2360-016d-4b5c-acff-c91bc8abf83b
 
