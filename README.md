@@ -8,3 +8,9 @@ In this project , we explore multiple approaches to image-to-image translation u
 We explored Aerial to map (covered by Shivam ), selfie to anime (covered by Ankita) , image transaltion using non deep techniques (covered by Shubhi) , image to oil painitng using deep learning (by Sunanda) and real to ghibili using deep learning (by Lakshya). 
 
 The demo video for various approaches are: 
+
+
+
+**Traditional Method **
+https://github.com/user-attachments/assets/5f9b2360-016d-4b5c-acff-c91bc8abf83b
+
