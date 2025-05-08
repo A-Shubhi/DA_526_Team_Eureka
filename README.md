@@ -14,4 +14,9 @@ The demo video for various approaches are:
 Traditional Method : 
 https://github.com/user-attachments/assets/5f9b2360-016d-4b5c-acff-c91bc8abf83b
 
+Image Style Transfer using Deep Learning (Oil Painting):
+https://github.com/user-attachments/assets/c9a6794f-d771-4bfd-a3be-5a9cbbd00dcb
+
+
+
 
